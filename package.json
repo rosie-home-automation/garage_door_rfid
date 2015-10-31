@@ -1,0 +1,39 @@
+{
+  "name": "garage_door_rfid",
+  "version": "0.1.0",
+  "description": "A garage_door plugin to add rfid access control.",
+  "main": "index.js",
+  "scripts": {
+    "db-migrate": "db-migrate up",
+    "start": "rejoice -c index.json -p ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosie-home-automation/garage_door_rfid"
+  },
+  "keywords": [
+    "garage",
+    "door",
+    "rfid"
+  ],
+  "author": "Scott Olson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosie-home-automation/garage_door_rfid/issues"
+  },
+  "homepage": "https://github.com/rosie-home-automation/garage_door_rfid",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "boom": "^2.8.0",
+    "config": "^0.4.37",
+    "db-migrate": "^0.9.20",
+    "nanotimer": "^0.3.10",
+    "onoff": "^1.0.2",
+    "pg": "^4.4.2",
+    "pg-hstore": "^2.3.2",
+    "rejoice": "^2.0.1",
+    "sequelize": "^3.11.0",
+    "underscore": "^1.8.3"
+  }
+}
