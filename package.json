@@ -1,6 +1,6 @@
 {
   "name": "garage_door_rfid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A garage_door plugin to add rfid access control.",
   "main": "index.js",
   "scripts": {
