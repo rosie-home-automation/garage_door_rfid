@@ -1,0 +1,18 @@
+{
+  "connections": [
+    {
+      "port": 4000
+    }
+  ],
+  "plugins": {
+    "garage_door_rfid": {
+      "pins": {
+        "data_0": 27,
+        "data_1": 22,
+        "greenLed": 6,
+        "redLed": 25,
+        "buzzer": 23
+      }
+    }
+  }
+}
